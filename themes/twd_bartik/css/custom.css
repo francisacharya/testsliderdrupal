@@ -1,10 +1,67 @@
-.view-front-page-slideshow .views-field-title {
+.view-front-page-slideshow .views-field-title !important{
  position: absolute; bottom: 35px; right: 0px; font-size: 20px; 
  text-align: center; background-color: white; opacity: 0.5; width: 235px;
 }
-.view-front-page-slideshow .views-field-counter { float: left; padding: 10px 5px; 
-	background: url("../images/page_nav_inacti­ve.png") top left no-repeat; width: 10px;
+.view-front-page-slideshow .views-field-counter!important { float: left; padding: 10px 5px; 
+	background: url("../images/distribution-reinvented.png") top left no-repeat; width: 10px;
 }
 .view-content{
 	width:100%;
+}
+
+
+
+.widget_pager {
+	position: absolute;
+	right: 20px;
+	bottom: 40px;
+	z-index: 30;
+}
+span.field-content {
+text-align: center;
+position: absolute;
+top: 50%;
+margin: 0 auto;
+left: 0;
+right: 0;
+-webkit-transform: translateY(-50%);
+transform: translateY(-50%);
+color:
+#fff;
+z-index: 20;
+}
+
+
+.field-content{
+ width: 100%; 
+ float: left;
+ margin-right: -100%; 
+position: relative; 
+opacity: 1; display: block; z-index: 2;
+}
+
+
+
+.views_slideshow_cycle_main {
+  width: 100%;
+  float: left;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: 100%;
+}
+.views_slideshow_cycle_main .field-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }

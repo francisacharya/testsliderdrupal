@@ -1,5 +1,7 @@
 global-styling:
   version: VERSION
+  js:
+    js/custom.js: {}
   css:
     base:
       css/base/elements.css: {}
@@ -62,6 +64,7 @@ global-styling:
       css/colors.css: {}
       css/custom.css: {}
       css/print.css: { media: print }
+    
 
 messages:
   version: VERSION
