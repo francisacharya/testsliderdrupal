@@ -1,0 +1,10 @@
+.view-front-page-slideshow .views-field-title {
+ position: absolute; bottom: 35px; right: 0px; font-size: 20px; 
+ text-align: center; background-color: white; opacity: 0.5; width: 235px;
+}
+.view-front-page-slideshow .views-field-counter { float: left; padding: 10px 5px; 
+	background: url("../images/page_nav_inacti­ve.png") top left no-repeat; width: 10px;
+}
+.view-content{
+	width:100%;
+}
